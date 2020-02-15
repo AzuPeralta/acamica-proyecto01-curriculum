@@ -1,0 +1,177 @@
+* {
+    box-sizing: border-box;
+    /* La propiedad de tamaño de caja nos permite incluir el relleno y el borde
+    en el ancho y alto total de un elemento. Si establece el box-sizing: border-box;
+    en un elemento el relleno y el borde se incluyen en el ancho y la altura */
+}
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 3% 10%;
+    background-color: #FFD1A9;
+}
+header {
+    font-size: 30pt;
+    color: rgb(167, 4, 4);
+    display: flex;
+    justify-content: left;
+    background-color: #FB6D4C;
+    border-radius: 7px;
+    height: 250px;
+}
+h1 {
+    margin-left: 30%;
+    margin-top: 5%;
+}
+nav {
+    justify-content: left;
+    position: absolute;
+    top: 27%;
+    left: 30%;
+    max-width: 100%;
+    color: rgb(167, 4, 4);
+}
+a {
+    text-decoration: none;
+    color: #4e0101;
+    padding: 5pt;
+}
+section {
+    background-color: #FF9E79;
+    /* border: solid 1px #FB6D4C; */
+    border-radius: 5px;
+    margin: 7px;
+}
+h2{
+    color: rgb(167, 4, 4);
+    padding: 5px;
+    margin: 20px;
+}
+p {
+    color: #580000;
+    padding: 10px;
+    margin: 25px;
+    text-align: justify;
+}
+li {
+    color: #580000;
+    margin: 5px;
+    padding: 5px;
+}
+h3 {
+    font-size: 13pt;
+    font-style: italic;
+}
+div {
+    margin: 20px;
+}
+footer {
+    text-align: center;
+    margin: 1% auto;
+    background-image: linear-gradient(#C23B22, #FB6D4C)
+}
+hr {
+    background-color: #FFD1A9;
+    height: 5px;
+}
+aside#data {
+    float: left;
+    width: 30%;
+}
+h2.aboutme {
+    position: relative;
+    /* right: 7%; */
+}
+img.portfolio {
+    height: 130px;
+    width: 130px;
+}
+img.aboutme {
+    position: absolute;
+    right: 90%;
+    top: 10%;
+    height: 50px;
+    width: 50px;
+    max-width: 100px;
+    opacity: 0.2;
+}
+ul.menu {
+    list-style: none;
+    font-size: 13pt;
+    display: flex;
+    justify-content: center;
+}
+ul.menu li{
+    padding: 5px;
+    margin: 5px;
+}
+.clear-flex{
+    clear: right;
+}
+img#perfil {
+    height: 300px;
+    width: 300px;
+    border-radius: 150px;
+    border: 8px solid #FFD1A9;
+    margin: 2% 2%;
+    position: absolute;
+    left: 5%;
+    top: 5%;
+}
+img#quote {
+    width: 100px;
+    height: 100px;
+}
+div#informacion {
+    float: right;
+    width: 60%;
+}
+.contacto {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+img.contacto {
+    width: 35px;
+    height: 35px;
+}
+#aboutme {
+    display: flex;
+    flex-direction: row-reverse;
+    left: 34%;
+    max-width: 65%;
+    position: relative;
+    right: 5%;
+    padding: 3px;
+}
+#portfolio {
+    align-items: center;
+    background-color: #FF9E79;
+    border-radius: 7px;
+}
+p#footer {
+    text-align: center;
+    font-size: 13pt;
+}
+
+
+h1:hover{
+    background-color: transparent;
+    color: #FFD1A9;
+    transition: all 0.4s linear;
+    border-radius: 7px;
+}
+h2:hover {
+    background-color: #FFD1A9;
+    color: rgb(250, 101, 67);
+    border-radius: 7px;
+    transition: all 0.4s linear;
+    margin-top: 10px;
+    border-top: solid 5px #FF9E79;
+}
+a:hover {
+    background-color: #FFD1A9;
+    color: #580000;
+    transition: all 0.4s linear;
+    border-radius: 7px;
+    margin-top: 5px;
+}
